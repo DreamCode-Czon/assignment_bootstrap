@@ -1,0 +1,44 @@
+body,
+html {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    font-size: 18px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/sebastian-unrau-dT4hx-QW0Aw-unsplash.jpg);
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 80%;
+    background-size: cover;
+}
+
+.hero-text {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    color: black;
+    display: inline-block;
+    background-color: white;
+    padding: 10px 25px;
+
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.bg-container-color {
+    background-color: rgb(155, 155, 155);
+}
